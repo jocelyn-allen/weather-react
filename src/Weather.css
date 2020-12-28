@@ -1,0 +1,58 @@
+.Weather {
+  padding: 10px 30px 20px 30px;
+  border: 2px solid #2c2c2c;
+  border-radius: 7px;
+  background: #a7cdff;
+}
+
+.Weather .weather-overview {
+  margin-bottom: 15px;
+}
+
+.Weather .current-temperature img {
+  margin-right: 10px;
+  position: relative;
+  top: -15px;
+  right: 15px;
+}
+
+.Weather .current-temperature strong {
+  font-size: 50px;
+  font-weight: 500px;
+  position: relative;
+  right: 30px;
+}
+
+.Weather .current-temperature .units {
+  position: relative;
+  font-size: 14px;
+  top: -25px;
+  right: 27px;
+}
+
+.Weather .humidity-and-wind {
+  margin-top: 14px;
+  margin-left: 15px;
+}
+
+.Weather .wind-li {
+  margin-bottom: 0px;
+}
+
+.Weather .col-2 {
+  text-align: center;
+  width: 630px;
+}
+
+.Weather .col-2 img {
+  position: relative;
+  right: 15px;
+}
+.Weather .current-temperature .active {
+  color: #000000;
+  cursor: default;
+}
+
+.Weather .current-temperature .active:hover {
+  text-decoration: none;
+}
